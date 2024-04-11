@@ -1,0 +1,29 @@
+.hero {
+    padding: 319px 0 335px 0;
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__desc {
+        font-weight: 500;
+        line-height: 19.5px;
+        text-align: center;
+        color: $white-color;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 64.36px;
+        text-align: center;
+        width: 829px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        color: $white-color;
+    }
+
+    &__btn {
+        @extend %btn-template;
+    }
+}
