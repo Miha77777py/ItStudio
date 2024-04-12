@@ -31,11 +31,7 @@
     }
 
     &__link {
-        font-weight: 500;
-        line-height: 19.5px;
-        text-align: left;
-        color: $blue-color;
-        text-decoration: underline;
+        @extend %link-template;
     }
 }
 
@@ -44,7 +40,7 @@
     justify-content: center;
     gap: 100px;
     padding: 70px 0;
-    border-top: 1px solid $lighr-grey-color;
+    border-top: 1px solid $light-grey-color;
 
     &__top {
         display: flex;

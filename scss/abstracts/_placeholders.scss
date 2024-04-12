@@ -11,3 +11,11 @@
     text-align: center;
     color: $white-color;
 }
+
+%link-template {
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: $blue-color;
+    text-decoration: underline;
+}
