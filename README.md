@@ -1,8 +1,8 @@
 # ItStudio App
 
-### [Site link](https://github.com/Miha77777py/ItStudio)
+### [Site link](https://miha77777py.github.io/ItStudio/)
 
-App support **only** desktop
+App support ***only*** desktop
 
 ### Tech stack:
 
