@@ -61,17 +61,21 @@
 }
 
 .inner-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90px;
     height: 90px;
     border-radius: 50%;
     border: 1px solid $blue-color;
-    padding: 25px;
 }
 
 .outer-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 110px;
     height: 110px;
     border-radius: 50%;
     border: 1px solid $light-grey-color;
-    padding: 10px;
 }
